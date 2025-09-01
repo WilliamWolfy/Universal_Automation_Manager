@@ -1,0 +1,182 @@
+{
+  "profiles": [
+    {
+      "description": {
+        "en": "Set of tools for office work and productivity.",
+        "fr": "Ensemble d'outils pour la bureautique et la productivité."
+      },
+      "name": {
+        "en": "Office",
+        "fr": "Bureautique"
+      },
+      "tasks": [
+        "LibreOffice",
+        "Thunderbird",
+        "Firefox",
+        "VLC",
+        "Google Chrome",
+        "Dropbox",
+        "BleachBit"
+      ]
+    },
+    {
+      "description": {
+        "en": "Applications for synchronization and online storage.",
+        "fr": "Applications pour la synchronisation et le stockage en ligne."
+      },
+      "name": {
+        "en": "Cloud",
+        "fr": "Cloud"
+      },
+      "tasks": [
+        "Dropbox",
+        "rclone",
+        "MegaSync",
+        "Google Chrome",
+        "Firefox"
+      ]
+    },
+    {
+      "description": {
+        "en": "Tools for messaging, video conferencing and collaboration.",
+        "fr": "Outils pour la messagerie, la visioconférence et la collaboration."
+      },
+      "name": {
+        "en": "Communication",
+        "fr": "Communication"
+      },
+      "tasks": [
+        "Slack",
+        "Telegram",
+        "Zoom",
+        "Microsoft Teams",
+        "Discord",
+        "Thunderbird"
+      ]
+    },
+    {
+      "description": {
+        "en": "Complete environment for software development.",
+        "fr": "Environnement complet pour le développement logiciel."
+      },
+      "name": {
+        "en": "Developer",
+        "fr": "Développeur"
+      },
+      "tasks": [
+        "Git",
+        "VSCode",
+        "Notepad++",
+        "Firefox",
+        "Postman",
+        "Docker Compose",
+        "Java (OpenJDK 17)",
+        "PHP",
+        "Neofetch",
+        "htop"
+      ]
+    },
+    {
+      "description": {
+        "en": "Applications and tools for gamers.",
+        "fr": "Applications et outils pour les joueurs."
+      },
+      "name": {
+        "en": "Gamer",
+        "fr": "Gamer"
+      },
+      "tasks": [
+        "Steam",
+        "Discord",
+        "OBS Studio",
+        "VLC",
+        "Wine",
+        "Heroic Games Launcher",
+        "Itch.io",
+        "Telegram"
+      ]
+    },
+    {
+      "description": {
+        "en": "Graphic design and multimedia software.",
+        "fr": "Logiciels de création graphique et multimédia."
+      },
+      "name": {
+        "en": "Graphic Designer",
+        "fr": "Graphiste"
+      },
+      "tasks": [
+        "GIMP",
+        "Inkscape",
+        "Blender",
+        "Audacious",
+        "HandBrake",
+        "Spotify"
+      ]
+    },
+    {
+      "description": {
+        "en": "Free suite of applications for a versatile workstation.",
+        "fr": "Suite libre d'applications pour un poste polyvalent."
+      },
+      "name": {
+        "en": "LibreAssOS",
+        "fr": "LibreAssOS"
+      },
+      "tasks": [
+        "Firefox",
+        "LibreOffice",
+        "Thunderbird",
+        "GIMP",
+        "Inkscape",
+        "Audacity",
+        "OBS Studio",
+        "VLC"
+      ]
+    },
+    {
+      "description": {
+        "en": "Applications for audio, video and multimedia creation.",
+        "fr": "Applications pour l'audio, la vidéo et la création multimédia."
+      },
+      "name": {
+        "en": "Multimedia",
+        "fr": "Multimédia"
+      },
+      "tasks": [
+        "VLC",
+        "Audacity",
+        "OBS Studio",
+        "Blender",
+        "Spotify",
+        "HandBrake",
+        "Google Chrome"
+      ]
+    },
+    {
+      "description": {
+        "en": "Cybersecurity, anonymity and data protection tools.",
+        "fr": "Outils de cybersécurité, anonymat et protection des données."
+      },
+      "name": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "tasks": [
+        "Tor Browser",
+        "BleachBit",
+        "KeePassXC",
+        "VeraCrypt",
+        "OpenVPN",
+        "WireGuard",
+        "GnuPG",
+        "ClamAV",
+        "Signal",
+        "GUFW",
+        "Wireshark",
+        "Nmap",
+        "Metasploit"
+      ]
+    }
+  ]
+}

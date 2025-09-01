@@ -1,0 +1,957 @@
+{
+  "add": {
+    "en": "Add",
+    "fr": "Ajouter"
+  },
+  "add_command": {
+    "en": "Add a command for %s (leave empty to skip)",
+    "fr": "Ajouter une commande pour %s (laisser vide pour passer)"
+  },
+  "added_package_from_profile": {
+    "en": "Added unknown package to packages.json:",
+    "fr": "Paquet inconnu ajouté à packages.json :"
+  },
+  "added_unknown_package": {
+    "en": "Unknown package '%s' added to packages.json",
+    "fr": "Paquet inconnu ajouter à packages.json"
+  },
+  "already_present": {
+    "en": "📦 Package '%s' is already present.",
+    "fr": "📦 Le package '%s' est déjà présent."
+  },
+  "attempting_auto_install": {
+    "en": "Attempting automatic installation",
+    "fr": "Tentative d'installation automatique"
+  },
+  "available_packages": {
+    "en": "Available packages",
+    "fr": "Paquets disponibles"
+  },
+  "available_profiles": {
+    "en": "Available profiles",
+    "fr": "Profils disponibles"
+  },
+  "available_tasks": {
+    "fr": "Tâches disponibles"
+  },
+  "back": {
+    "en": "Back",
+    "fr": "Retour"
+  },
+  "by_profile": {
+    "en": "By profile",
+    "fr": "Par profil"
+  },
+  "cache_only": {
+    "en": "Cache only mode",
+    "fr": "Mode cache uniquement"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "fr": "Annuler"
+  },
+  "category": {
+    "en": "Category",
+    "fr": "Catégorie"
+  },
+  "check_internet": {
+    "en": "Checking internet...",
+    "fr": "Vérification d'internet..."
+  },
+  "choose_file": {
+    "en": "Choose file:",
+    "fr": "Choisissez un fichier :"
+  },
+  "choose_number": {
+    "en": "Choose number (0 to go back):",
+    "fr": "Choisissez un numéro (0 = retour) :"
+  },
+  "choose_packages": {
+    "en": "Enter package numbers or names (space separated, 0 to go back):",
+    "fr": "Entrez numéros ou noms (séparés par espaces, 0 = retour) :"
+  },
+  "command_line": {
+    "en": "Command line",
+    "fr": "Ligne de commande"
+  },
+  "command_line_linux": {
+    "en": "Linux command line (separated by ';', empty if none)",
+    "fr": "Commande Linux (séparées par ';', vide si aucune)"
+  },
+  "command_line_macos": {
+    "en": "macOS command line (separated by ';', empty if none)",
+    "fr": "Commande macOS (séparées par ';', vide si aucune)"
+  },
+  "command_line_running": {
+    "en": "Command line running",
+    "fr": "ligne de commande en cours d'exécution"
+  },
+  "command_line_windows": {
+    "en": "Windows command line (separated by ';', empty if none)",
+    "fr": "Commande Windows (séparées par ';', vide si aucune)"
+  },
+  "common": {
+    "back": {
+      "en": "Back",
+      "fr": "Retour"
+    },
+    "file_not_found": {
+      "en": "File not found",
+      "fr": "Fichier introuvable"
+    },
+    "invalid_choice": {
+      "en": "Invalid choice",
+      "fr": "Choix invalide"
+    }
+  },
+  "confirm_delete": {
+    "en": "Confirm delete? (y/n)",
+    "fr": "Confirmer suppression ? (o/n)"
+  },
+  "confirm_overwrite": {
+    "en": "File exists: overwrite? (y/n)",
+    "fr": "Fichier existe : écraser ? (o/n)"
+  },
+  "continue_prompt": {
+    "en": "Continue? (y/n)",
+    "fr": "Continuer ? (o/n)"
+  },
+  "created_by": {
+    "en": "by",
+    "fr": "par"
+  },
+  "custom_path": {
+    "en": "Enter a custom path",
+    "fr": "Entrez un chemin personnalisé"
+  },
+  "delete": {
+    "en": "Delete",
+    "fr": "Supprimer"
+  },
+  "description": {
+    "en": "Description",
+    "fr": "Description"
+  },
+  "download_failed": {
+    "en": "Download failed:",
+    "fr": "Échec du téléchargement :"
+  },
+  "download_ok": {
+    "en": "Downloaded:",
+    "fr": "Téléchargé :"
+  },
+  "downloading": {
+    "en": "Downloading...",
+    "fr": "Téléchargement..."
+  },
+  "downloading_new_version": {
+    "en": "Downloading the new version",
+    "fr": "Téléchargement de la nouvelle version"
+  },
+  "edit": {
+    "en": "Edit",
+    "fr": "Modifier"
+  },
+  "english_version": {
+    "en": "English version: %s",
+    "fr": "Version anglaise : %s"
+  },
+  "enter_full_path": {
+    "en": "Enter full path:",
+    "fr": "Entrer le chemin complet:"
+  },
+  "enter_path_prompt": {
+    "en": "Enter full path to file to import:",
+    "fr": "Entrez le chemin complet du fichier à importer :"
+  },
+  "error": {
+    "en": "Error:",
+    "fr": "Erreur :"
+  },
+  "executing_commands": {
+    "en": "Executing commands",
+    "fr": "Exécution des commandes"
+  },
+  "existing_commands": {
+    "en": "Existing commands for %s",
+    "fr": "Commandes existantes pour %s"
+  },
+  "export_file": {
+    "en": "Export file",
+    "fr": "Exporter un fichier"
+  },
+  "export_packages": {
+    "en": "Export packages",
+    "fr": "Exporter paquets"
+  },
+  "export_profile": {
+    "en": "Export profile",
+    "fr": "Eporter un profil"
+  },
+  "file_exported": {
+    "en": "File exported",
+    "fr": "Fichier exporté"
+  },
+  "file_not_found": {
+    "en": "File not found:",
+    "fr": "Fichier introuvable :"
+  },
+  "force_download": {
+    "en": "Force re-download",
+    "fr": "Forcer le re-téléchargement"
+  },
+  "import_file": {
+    "en": "Import file",
+    "fr": "Importer un fichier"
+  },
+  "import_list": {
+    "en": "Import list",
+    "fr": "Importer liste"
+  },
+  "import_profile": {
+    "en": "Importing profile:",
+    "fr": "Importation du profil:"
+  },
+  "input_empty": {
+    "en": "No input provided",
+    "fr": "Aucune entrée fournie"
+  },
+  "install_all_packages": {
+    "en": "Install all packages",
+    "fr": "Installer tous les paquets"
+  },
+  "install_appimage": {
+    "en": "➡️ Installing AppImage",
+    "fr": "➡️ Installation AppImage"
+  },
+  "install_commands": {
+    "en": "Execute install commands",
+    "fr": "Exécuter commandes d'installation"
+  },
+  "install_deb": {
+    "en": "➡️ Installing .deb package",
+    "fr": "➡️ Installation du paquet .deb"
+  },
+  "install_dmg": {
+    "en": "➡️ Mounting and installing DMG",
+    "fr": "➡️ Montage et installation du DMG"
+  },
+  "install_exe": {
+    "en": "➡️ Installing Windows executable",
+    "fr": "➡️ Installation de l'exécutable Windows"
+  },
+  "install_from_url": {
+    "en": "Install from URL",
+    "fr": "Installer depuis URL"
+  },
+  "install_msi": {
+    "en": "➡️ Installing MSI package",
+    "fr": "➡️ Installation du paquet MSI"
+  },
+  "install_pkg": {
+    "en": "➡️ Installing PKG package",
+    "fr": "➡️ Installation du paquet PKG"
+  },
+  "install_profile": {
+    "en": "Install profile",
+    "fr": "Installer un profil"
+  },
+  "install_rpm": {
+    "en": "➡️ Installing .rpm package",
+    "fr": "➡️ Installation du paquet .rpm"
+  },
+  "install_success": {
+    "en": "Successfully installed",
+    "fr": "Installation réussie de"
+  },
+  "install_sucess": {
+    "en": "Install sucess",
+    "fr": "Installation réussie"
+  },
+  "install_zip": {
+    "en": "➡️ Extracting ZIP",
+    "fr": "➡️ Décompression du ZIP"
+  },
+  "installation": {
+    "en": "Installation",
+    "fr": "Installation"
+  },
+  "installing_package": {
+    "en": "Installing package:",
+    "fr": "Installation du paquet :"
+  },
+  "installing_packages": {
+    "en": "Installing packages from profile: %s",
+    "fr": "Installation des packages à partir du profil : %s"
+  },
+  "installing_profile": {
+    "en": "Installing profile:",
+    "fr": "Installation du profil :"
+  },
+  "internet_fail": {
+    "en": "No internet detected",
+    "fr": "Aucun accès internet détecté"
+  },
+  "internet_ok": {
+    "en": "Internet OK",
+    "fr": "Internet OK"
+  },
+  "invalid_choice": {
+    "en": "Invalid choice.",
+    "fr": "Choix invalide."
+  },
+  "invalid_file": {
+    "en": "Invalid file format (expected .json or .csv)",
+    "fr": "Format invalide (attendu .json ou .csv)"
+  },
+  "invalid_number": {
+    "en": "Invalid number, try again.",
+    "fr": "Numéro invalide, réessayez."
+  },
+  "json_loaded": {
+    "en": "Loaded JSON file",
+    "fr": "Ficher JSON Chargé !"
+  },
+  "list_profiles": {
+    "en": "List of profiles",
+    "fr": "Liste des profils"
+  },
+  "load_json": {
+    "en": "Loading the JSON file",
+    "fr": "Chargement du fichier JSON"
+  },
+  "make_your_choice": {
+    "en": "Make your choice",
+    "fr": "Faite votre choix :"
+  },
+  "manageProfiles": {
+    "add": {
+      "en": "Add a Profile",
+      "fr": "Ajouter un profil"
+    },
+    "back": {
+      "en": "Back",
+      "fr": "Retour"
+    },
+    "delete": {
+      "en": "Delete a Profile",
+      "fr": "Supprimer un profil"
+    },
+    "edit": {
+      "en": "Edit a Profile",
+      "fr": "Modifier un profil"
+    },
+    "title": {
+      "en": "Manage Profiles",
+      "fr": "Gérer les profils"
+    }
+  },
+  "manageTasks": {
+    "add": {
+      "en": "Add",
+      "fr": "Ajouter"
+    },
+    "add_command": {
+      "en": "Add a command for %s (leave empty to skip): ",
+      "fr": "Ajoutez une commande pour %s (laisser vide pour passer) : "
+    },
+    "available_tasks": {
+      "en": "Available tasks",
+      "fr": "Tâches disponibles"
+    },
+    "cancel": {
+      "en": "Cancel",
+      "fr": "Annuler"
+    },
+    "category": {
+      "en": "Category",
+      "fr": "Catégorie"
+    },
+    "command_line_linux": {
+      "en": "Enter Linux command(s) (separate with ';' if multiple): ",
+      "fr": "Entrez la(les) commande(s) Linux (séparez par ';' si plusieurs) : "
+    },
+    "command_line_macos": {
+      "en": "Enter macOS command(s) (separate with ';' if multiple): ",
+      "fr": "Entrez la(les) commande(s) macOS (séparez par ';' si plusieurs) : "
+    },
+    "command_line_windows": {
+      "en": "Enter Windows command(s) (separate with ';' if multiple): ",
+      "fr": "Entrez la(les) commande(s) Windows (séparez par ';' si plusieurs) : "
+    },
+    "commands": {
+      "en": "Commands",
+      "fr": "Commandes"
+    },
+    "delete": {
+      "en": "Delete",
+      "fr": "Supprimer"
+    },
+    "description": {
+      "en": "Description",
+      "fr": "Description"
+    },
+    "edit": {
+      "en": "Edit",
+      "fr": "Modifier"
+    },
+    "existing_commands": {
+      "en": "Existing commands for %s:",
+      "fr": "Commandes existantes pour %s :"
+    },
+    "invalid_choice": {
+      "en": "Invalid choice, please try again.",
+      "fr": "Choix invalide, veuillez réessayer."
+    },
+    "manage_tasks": {
+      "en": "Manage tasks",
+      "fr": "Gérer les tâches"
+    },
+    "modification_done": {
+      "en": "Modification complete.",
+      "fr": "Modification terminée."
+    },
+    "name": {
+      "en": "Name",
+      "fr": "Nom"
+    },
+    "new_category": {
+      "en": "Enter new category",
+      "fr": "Entrez la nouvelle catégorie"
+    },
+    "new_description": {
+      "en": "Enter new description",
+      "fr": "Entrez la nouvelle description"
+    },
+    "prompt_new_task": {
+      "en": "Enter new task details",
+      "fr": "Entrez les détails de la nouvelle tâche"
+    },
+    "select_action": {
+      "en": "Select an action: ",
+      "fr": "Sélectionnez une action : "
+    },
+    "select_field": {
+      "en": "Select a field to edit: ",
+      "fr": "Sélectionnez un champ à modifier : "
+    },
+    "task_added": {
+      "en": "Task \"%s\" added successfully.",
+      "fr": "Tâche \"%s\" ajoutée avec succès."
+    },
+    "task_deleted": {
+      "en": "Task \"%s\" deleted.",
+      "fr": "Tâche \"%s\" supprimée."
+    },
+    "task_modified": {
+      "en": "Editing task \"%s\"...",
+      "fr": "Modification de la tâche \"%s\"..."
+    }
+  },
+  "manage_file": {
+    "en": "Manage packages",
+    "fr": "Gérer paquets"
+  },
+  "manage_packages": {
+    "en": "Manage packages",
+    "fr": "Gérer paquets"
+  },
+  "menuCustom": {
+    "available_tasks": {
+      "en": "Available tasks",
+      "fr": "Tâches disponibles"
+    },
+    "choose_tasks": {
+      "en": "Choose tasks (separate multiple choices with spaces)",
+      "fr": "Choisissez les tâches (séparez plusieurs choix par des espaces)"
+    },
+    "no_tasks": {
+      "en": "❌ No tasks available.",
+      "fr": "❌ Aucune tâche disponible."
+    }
+  },
+  "menuMain": {
+    "about": {
+      "en": "About",
+      "fr": "À propos"
+    },
+    "exit": {
+      "en": "Exit",
+      "fr": "Quitter"
+    },
+    "profiles": {
+      "en": "Profiles",
+      "fr": "Profils"
+    },
+    "select_option": {
+      "en": "Select an option:",
+      "fr": "Sélectionnez une option:"
+    },
+    "system": {
+      "en": "System",
+      "fr": "Système"
+    },
+    "tasks": {
+      "en": "Tasks",
+      "fr": "Tâches"
+    },
+    "title": {
+      "en": "Main Menu",
+      "fr": "Menu principal"
+    },
+    "tools": {
+      "en": "Tools",
+      "fr": "Outils"
+    }
+  },
+  "menuProfiles": {
+    "back": {
+      "en": "Back",
+      "fr": "Retour"
+    },
+    "manage": {
+      "en": "Manage Profiles",
+      "fr": "Gérer les profils"
+    },
+    "run": {
+      "en": "Run Profile",
+      "fr": "Démarrer un profil"
+    },
+    "select_option": {
+      "en": "Select an option:",
+      "fr": "Sélectionnez une option:"
+    },
+    "title": {
+      "en": "Profiles Menu",
+      "fr": "Menu des profils"
+    }
+  },
+  "menuProfiles2": {
+    "available_profiles": {
+      "en": "Available profiles",
+      "fr": "Profils disponibles"
+    },
+    "back": {
+      "en": "Back",
+      "fr": "Retour"
+    },
+    "choose_profiles": {
+      "en": "Choose one or more profiles (separated by spaces): ",
+      "fr": "Choisissez un ou plusieurs profils (séparés par des espaces) : "
+    },
+    "invalid_choice": {
+      "en": "❌ Invalid choice",
+      "fr": "❌ Choix invalide"
+    },
+    "no_profiles": {
+      "en": "❌ No profiles available",
+      "fr": "❌ Aucun profil disponible"
+    },
+    "selected_profile": {
+      "en": "Selected profile",
+      "fr": "Profil sélectionné"
+    }
+  },
+  "menuSystem": {
+    "back": {
+      "en": "Back",
+      "fr": "Retour"
+    },
+    "check_internet": {
+      "en": "Check Internet Connection",
+      "fr": "Vérifier la connexion internet"
+    },
+    "detect_os": {
+      "en": "Detect Operating System",
+      "fr": "Détecter le système"
+    },
+    "select_option": {
+      "en": "Select an option:",
+      "fr": "Sélectionnez une option:"
+    },
+    "title": {
+      "en": "System Menu",
+      "fr": "Menu système"
+    },
+    "update_script": {
+      "en": "Update Script",
+      "fr": "Mettre à jour le script"
+    },
+    "update_system": {
+      "en": "Update System",
+      "fr": "Mettre à jour le système"
+    }
+  },
+  "menuTasks": {
+    "back": {
+      "en": "Back",
+      "fr": "Retour"
+    },
+    "manage": {
+      "en": "Manage Tasks",
+      "fr": "Gérer les tâches"
+    },
+    "run": {
+      "en": "Run Task",
+      "fr": "Démarrer une tâche"
+    },
+    "select_option": {
+      "en": "Select an option:",
+      "fr": "Sélectionnez une option:"
+    },
+    "title": {
+      "en": "Tasks Menu",
+      "fr": "Menu des tâches"
+    }
+  },
+  "menuTools": {
+    "back": {
+      "en": "Back",
+      "fr": "Retour"
+    },
+    "download": {
+      "en": "Download a File",
+      "fr": "Télécharger un fichier"
+    },
+    "install_from_link": {
+      "en": "Install from Link",
+      "fr": "Installer depuis un lien"
+    },
+    "select_option": {
+      "en": "Select an option:",
+      "fr": "Sélectionnez une option:"
+    },
+    "title": {
+      "en": "Tools Menu",
+      "fr": "Menu des outils"
+    }
+  },
+  "missing_translation": {
+    "en": "Missing translation",
+    "fr": "Traduction manquante"
+  },
+  "name": {
+    "en": "Name",
+    "fr": "Nom"
+  },
+  "new_category": {
+    "en": "New category (leave empty to keep current)",
+    "fr": "Nouvelle catégorie (laisser vide pour conserver)"
+  },
+  "new_description": {
+    "en": "New description (leave empty to keep current)",
+    "fr": "Nouvelle description (laisser vide pour conserver)"
+  },
+  "no": {
+    "en": "No",
+    "fr": "Non"
+  },
+  "no_english_version": {
+    "en": "No English version, using key: %s",
+    "fr": "Pas de version anglaise, utilisation de la clé : %s"
+  },
+  "no_jq": {
+    "en": "jq required for JSON",
+    "fr": "jq requis pour JSON"
+  },
+  "no_json_found": {
+    "en": "No JSON file found. Enter full path:",
+    "fr": "Aucun fichier JSON trouvé. Entrez le chemin complet :"
+  },
+  "no_package_found": {
+    "en": "No packages found in",
+    "fr": "Aucun paquet trouvé dans"
+  },
+  "no_packages": {
+    "en": "No packages available.",
+    "fr": "Aucun paquet disponible."
+  },
+  "no_profiles": {
+    "en": "No profiles available.",
+    "fr": "Aucun profil disponible."
+  },
+  "no_short": {
+    "en": "N",
+    "fr": "N"
+  },
+  "no_updates": {
+    "en": "No updates found",
+    "fr": "Aucune mise à jour"
+  },
+  "offer_translate": {
+    "en": "Do you want to open Google Translate to help translate into %s? (y/n): ",
+    "fr": "Voulez-vous ouvrir Google Traduction pour aider à traduire en %s ? (o/n) : "
+  },
+  "ok": {
+    "en": "OK",
+    "fr": "OK"
+  },
+  "package_added": {
+    "en": "Package added",
+    "fr": "Paquet ajouté"
+  },
+  "package_deleted": {
+    "en": "Package deleted",
+    "fr": "Paquet supprimé"
+  },
+  "package_failed": {
+    "en": "Failed to install package",
+    "fr": "Échec de l'installation du paquet"
+  },
+  "package_installed": {
+    "en": "Package installed",
+    "fr": "Paquet installé"
+  },
+  "package_modified": {
+    "en": "Package modified",
+    "fr": "Paquet modifié"
+  },
+  "package_not_found_json": {
+    "en": "Package not found in JSON:",
+    "fr": "Paquet non trouvé dans le JSON :"
+  },
+  "packages_count": {
+    "en": "%s package(s)",
+    "fr": "%s paquet(s)"
+  },
+  "packages_file_not_found": {
+    "en": "Packages file not found:",
+    "fr": "Fichier packages introuvable :"
+  },
+  "personalized": {
+    "en": "Personalized",
+    "fr": "Personnalisée"
+  },
+  "press_enter": {
+    "en": "Press Enter to continue...",
+    "fr": "Appuyez sur Entrée pour continuer..."
+  },
+  "profile_added": {
+    "en": "Profile added to profiles.json",
+    "fr": "Profil ajouté à profiles.json"
+  },
+  "profile_done": {
+    "en": "Profile done",
+    "fr": "Profil terminé"
+  },
+  "profile_exported": {
+    "en": "Profile exported to",
+    "fr": "Profil exporté dans"
+  },
+  "profile_updated": {
+    "en": "Profile added/updated in profiles.json",
+    "fr": "Profil ajouté/mis à jour dans profiles.json"
+  },
+  "profiles_file_not_found": {
+    "en": "Profiles file not found:",
+    "fr": "Fichier profiles introuvable :"
+  },
+  "prompt_new_package": {
+    "en": "Added a new package",
+    "fr": "Ajout d'un nouveau paquet"
+  },
+  "prompt_profile_filename": {
+    "en": "Enter export filename (default: %s):",
+    "fr": "Nom du fichier d'export (par défaut : %s) :"
+  },
+  "prompt_profile_name": {
+    "en": "Enter new profile name:",
+    "fr": "Entrez le nom du nouveau profil :"
+  },
+  "promt_profile_add": {
+    "en": "Add this profile to profiles.json? (y/n)",
+    "fr": "Ajouter ce profil à profiles.json ? (o/n)"
+  },
+  "provide_translation": {
+    "en": "Provide translation for \"%s\" in %s: ",
+    "fr": "Entrez la traduction pour \"%s\" en %s : "
+  },
+  "qcm_prompt": {
+    "en": "Choose from the list:",
+    "fr": "Choisissez dans la liste :"
+  },
+  "qf_prompt": {
+    "en": "Choose:",
+    "fr": "Choisissez :"
+  },
+  "qn_enter_number": {
+    "en": "Enter a number:",
+    "fr": "Entrez un nombre :"
+  },
+  "qn_invalid_number": {
+    "en": "Invalid number, try again.",
+    "fr": "Nombre invalide, réessayez."
+  },
+  "question_invalid": {
+    "en": "Invalid input, try again.",
+    "fr": "Entrée invalide, réessayez."
+  },
+  "redownload_prompt": {
+    "en": "Do you want to re-download it? (y/n) ",
+    "fr": "Voulez-vous le re-télécharger ? (o/n) "
+  },
+  "return_menu": {
+    "en": "Returning to previous menu...",
+    "fr": "Retour au menu précédent..."
+  },
+  "runProfile": {
+    "profile_empty": {
+      "en": "Profile is empty",
+      "fr": "Le profil est vide"
+    },
+    "profile_not_found": {
+      "en": "Profile not found",
+      "fr": "Profil introuvable"
+    },
+    "running_profile": {
+      "en": "Running profile",
+      "fr": "Exécution du profil"
+    }
+  },
+  "running_task": {
+    "en": "Running task",
+    "fr": "Exécution de la tâche"
+  },
+  "select_action": {
+    "en": "Select action :",
+    "fr": "Selectionner une action :"
+  },
+  "select_at_least": {
+    "en": "Select at least %s item(s).",
+    "fr": "Sélectionnez au moins %s élément(s)."
+  },
+  "select_at_most": {
+    "en": "Select at most %s item(s).",
+    "fr": "Sélectionnez au plus %s élément(s)."
+  },
+  "select_exactly": {
+    "en": "Select exactly %s item(s).",
+    "fr": "Sélectionnez exactement %s élément(s)."
+  },
+  "select_file_import": {
+    "en": "Select file to import",
+    "fr": "Sélection du fichier à importer"
+  },
+  "select_package_prompt": {
+    "en": "Enter package number(s) (space separated, 0 to cancel):",
+    "fr": "Entrez numéro(s) de paquet (séparés par espaces, 0 = annuler) :"
+  },
+  "select_profile_prompt": {
+    "en": "Enter profile number(s) (space separated):",
+    "fr": "Entrez numéro(s) de profil (séparés par espaces) :"
+  },
+  "success": {
+    "en": "Success:",
+    "fr": "Succès :"
+  },
+  "task_not_found": {
+    "en": "Task not found",
+    "fr": "Tâche introuvable"
+  },
+  "task_success": {
+    "en": "Task completed successfully",
+    "fr": "Tâche exécutée avec succès"
+  },
+  "translate": {
+    "confirm_translation": {
+      "en": "Confirm translation \"%s\"? (y/n): ",
+      "fr": "Confirmez-vous la traduction \"%s\" ? (o/n) : "
+    },
+    "empty_translation_abort": {
+      "en": "No translation provided. Aborting.",
+      "fr": "Aucune traduction fournie. Abandon."
+    },
+    "enter_text_to_translate": {
+      "en": "Enter text to translate: ",
+      "fr": "Entrez le texte à traduire : "
+    },
+    "offer_google_translate": {
+      "en": "Do you want to open Google Translate to help translate into %s? (y/n): ",
+      "fr": "Voulez-vous ouvrir Google Traduction pour aider à traduire en %s ? (o/n) : "
+    },
+    "offer_translate": {
+      "en": "Do you want to open Google Translate to help translate into %s? (y/n): ",
+      "fr": "Voulez-vous ouvrir Google Traduction pour aider à traduire en %s ? (o/n) : "
+    },
+    "provide_translation": {
+      "en": "Provide translation for \"%s\" in %s: ",
+      "fr": "Fournissez la traduction de \"%s\" en %s : "
+    },
+    "target_language": {
+      "en": "Target language (default: en): ",
+      "fr": "Langue cible (défaut : en) : "
+    }
+  },
+  "translation_missing": {
+    "en": "Translation missing for '%s' in '%s'.",
+    "fr": "Traduction manquante pour '%s' en '%s'."
+  },
+  "unable_check_version": {
+    "en": "Unable to check latest version",
+    "fr": "Impossible de vérifier la dernière version"
+  },
+  "unknown": {
+    "en": "Unknown",
+    "fr": "Inconnu"
+  },
+  "unsupported_linux_distro": {
+    "en": "Unsupported Linux distribution",
+    "fr": "Distribution Linux non supportée"
+  },
+  "unsupported_os": {
+    "en": "Unsupported operating system",
+    "fr": "Système d'exploitation non supporté"
+  },
+  "update_available": {
+    "en": "New version available:",
+    "fr": "Nouvelle version disponible :"
+  },
+  "update_check": {
+    "en": "Cheking for updates",
+    "fr": "Vérification des mises à jour"
+  },
+  "update_done": {
+    "en": "Updated. Restarting...",
+    "fr": "Mise à jour effectuée. Redémarrage..."
+  },
+  "update_none": {
+    "en": "UPI is up to date",
+    "fr": "UPI est à jour"
+  },
+  "update_prompt": {
+    "en": "Update now? (y/n)",
+    "fr": "Mettre à jour maintenant ? (o/n)"
+  },
+  "updating_system": {
+    "en": "Updating system...",
+    "fr": "Mise à jour du système..."
+  },
+  "use_cache": {
+    "en": "Using cached file",
+    "fr": "Utilisation du cache"
+  },
+  "using_cache": {
+    "en": "Using cache",
+    "fr": "Utilisation du cache"
+  },
+  "using_cached_file": {
+    "en": "Using cached file",
+    "fr": "Utilisation du fichier en cache"
+  },
+  "version": {
+    "en": "Version:",
+    "fr": "Version :"
+  },
+  "welcome": {
+    "en": "Welcome to",
+    "fr": "Bienvenue dans"
+  },
+  "yes": {
+    "en": "Yes",
+    "fr": "Oui"
+  },
+  "yes_short": {
+    "en": "Y",
+    "fr": "O"
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "tasks": [
+    {
+      "category": {
+        "en": "Browser",
+        "fr": "Navigateur"
+      },
+      "description": {
+        "en": "Fast and secure web browser",
+        "fr": "Navigateur rapide et sécurisé"
+      },
+      "linux": [
+        "sudo apt install -y google-chrome-stable"
+      ],
+      "macos": [
+        "brew install --cask google-chrome"
+      ],
+      "name": "Google Chrome",
+      "windows": [
+        "winget install -e --id Google.Chrome"
+      ]
+    },
+    {
+      "category": {
+        "en": "Browser",
+        "fr": "Navigateur"
+      },
+      "description": {
+        "en": "Open-source browser focused on privacy",
+        "fr": "Navigateur libre axé sur la confidentialité"
+      },
+      "linux": [
+        "sudo apt install -y firefox"
+      ],
+      "macos": [
+        "brew install --cask firefox"
+      ],
+      "name": "Mozilla Firefox",
+      "windows": [
+        "winget install -e --id Mozilla.Firefox"
+      ]
+    },
+    {
+      "category": {
+        "en": "Browser",
+        "fr": "Navigateur"
+      },
+      "description": {
+        "en": "Privacy-focused browser with built-in ad blocker",
+        "fr": "Navigateur orienté vers la vie privée avec bloqueur de pub intégré"
+      },
+      "linux": [
+        "sudo apt install -y brave-browser"
+      ],
+      "macos": [
+        "brew install --cask brave-browser"
+      ],
+      "name": "Brave",
+      "windows": [
+        "winget install -e --id Brave.Brave"
+      ]
+    },
+    {
+      "category": {
+        "en": "Browser",
+        "fr": "Navigateur"
+      },
+      "description": {
+        "en": "Browser with built-in VPN and ad blocker",
+        "fr": "Navigateur avec VPN et bloqueur de pub intégré"
+      },
+      "linux": [
+        "wget https://download.opera.com/download/get/?partner=www&opsys=Linux",
+        "sudo dpkg -i opera-stable_*.deb || sudo apt install -f"
+      ],
+      "macos": [
+        "brew install --cask opera"
+      ],
+      "name": "Opera",
+      "windows": [
+        "winget install -e --id Opera.Opera"
+      ]
+    },
+    {
+      "category": {
+        "en": "Browser",
+        "fr": "Navigateur"
+      },
+      "description": {
+        "en": "Browser focused on anonymity and privacy",
+        "fr": "Navigateur centré sur l’anonymat et la confidentialité"
+      },
+      "linux": [
+        "sudo apt install -y torbrowser-launcher"
+      ],
+      "macos": [
+        "brew install --cask tor-browser"
+      ],
+      "name": "Tor Browser",
+      "windows": [
+        "winget install -e --id TorProject.TorBrowser"
+      ]
+    },
+    {
+      "category": {
+        "en": "Tools",
+        "fr": "Outils"
+      },
+      "description": {
+        "en": "Interactive system monitor for the command line",
+        "fr": "Moniteur système interactif en ligne de commande"
+      },
+      "linux": [
+        "sudo apt install -y htop"
+      ],
+      "macos": [
+        "brew install htop"
+      ],
+      "name": "htop",
+      "windows": []
+    },
+    {
+      "category": {
+        "en": "Tools",
+        "fr": "Outils"
+      },
+      "description": {
+        "en": "Displays system information in the terminal",
+        "fr": "Affiche des informations système dans le terminal"
+      },
+      "linux": [
+        "sudo apt install -y neofetch"
+      ],
+      "macos": [
+        "brew install neofetch"
+      ],
+      "name": "Neofetch",
+      "windows": []
+    },
+    {
+      "category": {
+        "en": "Tools",
+        "fr": "Outils"
+      },
+      "description": {
+        "en": "System cleaning and privacy tool",
+        "fr": "Nettoyage système et confidentialité"
+      },
+      "linux": [
+        "sudo apt install -y bleachbit"
+      ],
+      "macos": [
+        "brew install --cask bleachbit"
+      ],
+      "name": "BleachBit",
+      "windows": [
+        "winget install -e --id BleachBit.BleachBit"
+      ]
+    },
+    {
+      "category": {
+        "en": "Development",
+        "fr": "Développement"
+      },
+      "description": {
+        "en": "Platform for testing APIs",
+        "fr": "Plateforme pour tester les APIs"
+      },
+      "linux": [
+        "sudo snap install postman"
+      ],
+      "macos": [
+        "brew install --cask postman"
+      ],
+      "name": "Postman",
+      "windows": [
+        "winget install -e --id Postman.Postman"
+      ]
+    },
+    {
+      "category": {
+        "en": "Development",
+        "fr": "Développement"
+      },
+      "description": {
+        "en": "Tool for defining and managing multi-container applications",
+        "fr": "Outil pour définir et gérer des applications multi-conteneurs"
+      },
+      "linux": [
+        "sudo apt install -y docker-compose"
+      ],
+      "macos": [
+        "brew install docker-compose"
+      ],
+      "name": "Docker Compose",
+      "windows": []
+    },
+    {
+      "category": {
+        "en": "Development",
+        "fr": "Développement"
+      },
+      "description": {
+        "en": "Java virtual machine and related tools",
+        "fr": "Machine virtuelle Java et outils associés"
+      },
+      "linux": [
+        "sudo apt install -y openjdk-17-jdk"
+      ],
+      "macos": [
+        "brew install openjdk@17"
+      ],
+      "name": "Java (OpenJDK 17)",
+      "windows": [
+        "winget install -e --id EclipseAdoptium.Temurin.17.JDK"
+      ]
+    },
+    {
+      "category": {
+        "en": "Development",
+        "fr": "Développement"
+      },
+      "description": {
+        "en": "Server-side scripting language",
+        "fr": "Langage de script côté serveur"
+      },
+      "linux": [
+        "sudo apt install -y php"
+      ],
+      "macos": [
+        "brew install php"
+      ],
+      "name": "PHP",
+      "windows": [
+        "winget install -e --id PHP.PHP"
+      ]
+    },
+    {
+      "category": {
+        "en": "Cloud",
+        "fr": "Cloud"
+      },
+      "description": {
+        "en": "Online file storage and synchronization",
+        "fr": "Stockage et synchronisation de fichiers en ligne"
+      },
+      "linux": [
+        "sudo apt install -y nautilus-dropbox"
+      ],
+      "macos": [
+        "brew install --cask dropbox"
+      ],
+      "name": "Dropbox",
+      "windows": [
+        "winget install -e --id Dropbox.Dropbox"
+      ]
+    },
+    {
+      "category": {
+        "en": "Cloud",
+        "fr": "Cloud"
+      },
+      "description": {
+        "en": "Cloud file management and synchronization (Google Drive, etc.)",
+        "fr": "Gestion et synchronisation de fichiers cloud (Google Drive, etc.)"
+      },
+      "linux": [
+        "sudo apt install -y rclone"
+      ],
+      "macos": [
+        "brew install rclone"
+      ],
+      "name": "rclone",
+      "windows": [
+        "winget install -e --id Rclone.Rclone"
+      ]
+    },
+    {
+      "category": {
+        "en": "Cloud",
+        "fr": "Cloud"
+      },
+      "description": {
+        "en": "Official MEGA storage client",
+        "fr": "Client officiel de stockage MEGA"
+      },
+      "linux": [
+        "wget https://mega.nz/linux/repo/xUbuntu_20.04/amd64/megasync-xUbuntu_20.04_amd64.deb",
+        "sudo apt install -y ./megasync-xUbuntu_20.04_amd64.deb"
+      ],
+      "macos": [
+        "brew install --cask megasync"
+      ],
+      "name": "MegaSync",
+      "windows": [
+        "winget install -e --id Mega.MEGASync"
+      ]
+    },
+    {
+      "category": {
+        "en": "Multimedia",
+        "fr": "Multimédia"
+      },
+      "description": {
+        "en": "Music streaming service",
+        "fr": "Service de streaming musical"
+      },
+      "linux": [
+        "curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -",
+        "echo 'deb http://repository.spotify.com stable non-free' | sudo tee /etc/apt/sources.list.d/spotify.list",
+        "sudo apt update",
+        "sudo apt install -y spotify-client"
+      ],
+      "macos": [
+        "brew install --cask spotify"
+      ],
+      "name": "Spotify",
+      "windows": [
+        "winget install -e --id Spotify.Spotify"
+      ]
+    },
+    {
+      "category": {
+        "en": "Multimedia",
+        "fr": "Multimédia"
+      },
+      "description": {
+        "en": "Lightweight and customizable audio player",
+        "fr": "Lecteur audio léger et personnalisable"
+      },
+      "linux": [
+        "sudo apt install -y audacious"
+      ],
+      "macos": [
+        "brew install audacious"
+      ],
+      "name": "Audacious",
+      "windows": []
+    },
+    {
+      "category": {
+        "en": "Multimedia",
+        "fr": "Multimédia"
+      },
+      "description": {
+        "en": "Open-source video converter",
+        "fr": "Convertisseur vidéo libre"
+      },
+      "linux": [
+        "sudo apt install -y handbrake"
+      ],
+      "macos": [
+        "brew install --cask handbrake"
+      ],
+      "name": "HandBrake",
+      "windows": [
+        "winget install -e --id HandBrake.HandBrake"
+      ]
+    },
+    {
+      "category": {
+        "en": "Communication",
+        "fr": "Communication"
+      },
+      "description": {
+        "en": "Team messaging and collaboration",
+        "fr": "Messagerie d’équipe et collaboration"
+      },
+      "linux": [
+        "sudo snap install slack --classic"
+      ],
+      "macos": [
+        "brew install --cask slack"
+      ],
+      "name": "Slack",
+      "windows": [
+        "winget install -e --id SlackTechnologies.Slack"
+      ]
+    },
+    {
+      "category": {
+        "en": "Communication",
+        "fr": "Communication"
+      },
+      "description": {
+        "en": "Secure and fast messaging application",
+        "fr": "Application de messagerie sécurisée et rapide"
+      },
+      "linux": [
+        "sudo snap install telegram-desktop"
+      ],
+      "macos": [
+        "brew install --cask telegram"
+      ],
+      "name": "Telegram",
+      "windows": [
+        "winget install -e --id Telegram.TelegramDesktop"
+      ]
+    },
+    {
+      "category": {
+        "en": "Communication",
+        "fr": "Communication"
+      },
+      "description": {
+        "en": "Video conferencing platform",
+        "fr": "Plateforme de visioconférence"
+      },
+      "linux": [
+        "sudo snap install zoom-client"
+      ],
+      "macos": [
+        "brew install --cask zoom"
+      ],
+      "name": "Zoom",
+      "windows": [
+        "winget install -e --id Zoom.Zoom"
+      ]
+    },
+    {
+      "category": {
+        "en": "Communication",
+        "fr": "Communication"
+      },
+      "description": {
+        "en": "Collaboration and video meetings by Microsoft",
+        "fr": "Collaboration et réunions vidéo par Microsoft"
+      },
+      "linux": [
+        "sudo snap install teams"
+      ],
+      "macos": [
+        "brew install --cask microsoft-teams"
+      ],
+      "name": "Microsoft Teams",
+      "windows": [
+        "winget install -e --id Microsoft.Teams"
+      ]
+    },
+    {
+      "category": {
+        "en": "Games",
+        "fr": "Jeux"
+      },
+      "description": {
+        "en": "Open-source launcher for Epic Games and GOG",
+        "fr": "Lanceur open-source pour Epic Games et GOG"
+      },
+      "linux": [
+        "sudo snap install heroic --edge"
+      ],
+      "macos": [
+        "brew install --cask heroic"
+      ],
+      "name": "Heroic Games Launcher",
+      "windows": [
+        "winget install -e --id HeroicGamesLauncher.HeroicGamesLauncher"
+      ]
+    },
+    {
+      "category": {
+        "en": "Games",
+        "fr": "Jeux"
+      },
+      "description": {
+        "en": "Indie games platform",
+        "fr": "Plateforme de jeux indépendants"
+      },
+      "linux": [
+        "sudo apt install -y itch"
+      ],
+      "macos": [
+        "brew install --cask itch"
+      ],
+      "name": "Itch.io",
+      "windows": [
+        "winget install -e --id ItchIo.Itch"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Cleaning tool to protect privacy and free up disk space.",
+        "fr": "Outil de nettoyage pour protéger la vie privée et libérer de l’espace disque."
+      },
+      "linux": [
+        "sudo apt install -y bleachbit"
+      ],
+      "macos": [],
+      "name": "BleachBit",
+      "windows": [
+        "winget install --id BleachBit.BleachBit --silent --accept-package-agreements --accept-source-agreements"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Open-source and cross-platform password manager.",
+        "fr": "Gestionnaire de mots de passe open-source et multiplateforme."
+      },
+      "linux": [
+        "sudo apt install -y keepassxc"
+      ],
+      "macos": [],
+      "name": "KeePassXC",
+      "windows": [
+        "winget install --id KeePassXCTeam.KeePassXC --silent --accept-package-agreements --accept-source-agreements"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Disk and volume encryption software.",
+        "fr": "Logiciel de chiffrement de disques et de volumes."
+      },
+      "linux": [
+        "sudo add-apt-repository ppa:unit193/encryption -y",
+        "sudo apt update",
+        "sudo apt install -y veracrypt"
+      ],
+      "macos": [],
+      "name": "VeraCrypt",
+      "windows": [
+        "winget install --id IDRIX.VeraCrypt --silent --accept-package-agreements --accept-source-agreements"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Open-source VPN software for secure browsing.",
+        "fr": "Logiciel VPN libre permettant de sécuriser la navigation."
+      },
+      "linux": [
+        "sudo apt install -y openvpn"
+      ],
+      "macos": [],
+      "name": "OpenVPN",
+      "windows": [
+        "winget install --id OpenVPNTechnologies.OpenVPN --silent --accept-package-agreements --accept-source-agreements"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Modern and fast VPN, integrated into the Linux kernel.",
+        "fr": "VPN moderne et performant, intégré au noyau Linux."
+      },
+      "linux": [
+        "sudo apt install -y wireguard"
+      ],
+      "macos": [],
+      "name": "WireGuard",
+      "windows": [
+        "winget install --id WireGuard.WireGuard --silent --accept-package-agreements --accept-source-agreements"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Encryption and signing tool for emails and files.",
+        "fr": "Outil de chiffrement et de signature pour les emails et fichiers."
+      },
+      "linux": [
+        "sudo apt install -y gnupg"
+      ],
+      "macos": [],
+      "name": "GnuPG",
+      "windows": [
+        "winget install --id GnuPG.Gpg4win --silent --accept-package-agreements --accept-source-agreements"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Open-source antivirus to scan and detect threats.",
+        "fr": "Antivirus libre pour analyser et détecter les menaces."
+      },
+      "linux": [
+        "sudo apt install -y clamav clamav-daemon"
+      ],
+      "macos": [],
+      "name": "ClamAV",
+      "windows": []
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Graphical interface to easily configure the UFW firewall.",
+        "fr": "Interface graphique pour configurer simplement le pare-feu UFW."
+      },
+      "linux": [
+        "sudo apt install -y gufw"
+      ],
+      "macos": [],
+      "name": "GUFW",
+      "windows": []
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Network packet analyzer for diagnostics and security.",
+        "fr": "Analyseur de paquets réseau pour diagnostic et sécurité."
+      },
+      "linux": [
+        "sudo apt install -y wireshark"
+      ],
+      "macos": [],
+      "name": "Wireshark",
+      "windows": [
+        "winget install --id WiresharkFoundation.Wireshark --silent --accept-package-agreements --accept-source-agreements"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Open-source network scanning tool.",
+        "fr": "Outil de scan réseau open-source."
+      },
+      "linux": [
+        "sudo apt install -y nmap"
+      ],
+      "macos": [],
+      "name": "Nmap",
+      "windows": [
+        "winget install --id Insecure.Nmap --silent --accept-package-agreements --accept-source-agreements"
+      ]
+    },
+    {
+      "category": {
+        "en": "Security",
+        "fr": "Sécurité"
+      },
+      "description": {
+        "en": "Exploitation and penetration testing framework.",
+        "fr": "Cadre d’exploitation et de tests de pénétration."
+      },
+      "linux": [
+        "curl https://raw.githubusercontent.com/rapid7/metasploit-framework/master/msfinstall | sudo bash"
+      ],
+      "macos": [],
+      "name": "Metasploit",
+      "windows": []
+    }
+  ]
+}
