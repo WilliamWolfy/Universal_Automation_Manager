@@ -32,7 +32,7 @@ scriptName="Universal Automation Manager"
 scriptAlias="UAM"
 scriptCreator="William Wolfy"
 scriptVersion="25.09.01"           # ⚠️ Pense à aligner avec version.txt sur GitHub
-url_script="https://raw.githubusercontent.com/WilliamWolfy/UniversalPackageInstaller/refs/heads/Prototype-multi-langue/UPI.sh"
+url_script="https://raw.githubusercontent.com/WilliamWolfy/Universal_Automation_Manager/refs/heads/main/UAM.sh"
 
 url_scriptSource="${url_script%/*}/" 
 scriptRepertory="$(pwd)"
